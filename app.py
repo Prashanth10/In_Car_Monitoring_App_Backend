@@ -33,12 +33,12 @@ app.add_middleware(
 
 # Data models
 class MonitoringMetadata(BaseModel):
-    frames_processed: int
-    people_detected: int
-    processing_time_seconds: float
-    video_source: str
-    inference_time_ms: float
-    total_detections: int
+    framesProcessed: int
+    peopleDetected: int
+    processingTimeSeconds: float
+    videoSource: str
+    inferenceTimeMs: float
+    totalDetections: int
 
 class SummaryLogRequest(BaseModel):
     session_id: str
